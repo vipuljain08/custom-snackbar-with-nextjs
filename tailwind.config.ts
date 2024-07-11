@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        successBg: '#4caf50',
+        errorBg: '#f44336',
+        warningBg: '#ff9800',
+        infoBg: '#2196f3',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
